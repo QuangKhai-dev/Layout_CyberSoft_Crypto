@@ -1,0 +1,504 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="./img/bank.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Crypto</title>
+  <!-- flowbite  -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+  <!-- FontAwesome 6.2.0 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- font roboto  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- my css  -->
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header  -->
+  <header class="py-5">
+    <nav class="w-full z-20 top-0 start-0">
+      <div class="flex flex-wrap items-center justify-between container p-4">
+        <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <span class="self-center text-4xl font-semibold whitespace-nowrap dark:text-white">Cyber Crypto</span>
+        </a>
+        <div class="flex md:order-2 space-x-4 md:space-x-2 rtl:space-x-reverse">
+          <button type="button"
+            class="text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center ">
+            login</button>
+          <button type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get
+            started</button>
+          <button data-collapse-toggle="navbar-sticky" type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15" />
+            </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li>
+              <a href="#"
+                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pages</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Portfolio</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Blog</a>
+            </li>
+            <li>
+              <a href="#"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- banner  -->
+  <section class="banner py-20">
+    <div class="container">
+      <div class="banner_content flex items-center space-x-7">
+        <div class="banner_text w-1/2 space-y-10">
+          <h1 class="text-8xl font-bold">Trsuted & Secure <span class="text-gardient">Crypto</span> Market Exchange.
+          </h1>
+          <p class="text-2xl text-opacity-75 text-white">Already have a website? Try our hosting to alive it with
+            industry-leading
+            load times.</p>
+          <!-- action  -->
+          <div class="banner_action flex items-center">
+            <button class="button-gardient">Start Trading</button>
+            <div class="banner_intro_video flex item-center">
+              <i class="fa-solid fa-play text-gardient video_intro"></i>
+              <div class="intro_text">
+                <p>watch</p>
+                <b>intro video</b>
+              </div>
+            </div>
+          </div>
+          <div class="banner_rating mt-10">
+            <h2 class="text-7xl mb-5">A+ Rating</h2>
+            <p class="text-xl text-white text-opacity-50">Avg rating 4.8 makes us world most best apps.</p>
+          </div>
+        </div>
+        <div class="banner_image w-1/2">
+          <img src="./img/bank.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- data  -->
+  <section class="data">
+    <div class="container">
+      <div class="data_content flex items-center justify-between rounded-xl">
+        <!-- item  -->
+        <div class="data_item rounded-l-xl border-r-slate-200 border-opacity-50 border-r">
+          <div class="data_logo_coin flex justify-between items-center mb-5">
+            <img width="35" height="35" src="./img/coin_1.png" alt="">
+            <div class="flex items-center">
+              <div class="data_name">
+                <p>BTC</p>
+                <b>1.345</b>
+              </div>
+              <div class="data_incre">
+                <i class="fa-solid fa-sort-up"></i>
+                <p>+14%</p>
+              </div>
+            </div>
+          </div>
+          <div class="data_price flex justify-between items-center">
+            <p class="text-2xl font-bold">$42,530.2,310</p>
+            <img src="./img/line_1.svg" alt="">
+          </div>
+        </div>
+        <!-- item  -->
+        <div class="data_item">
+          <div class="data_logo_coin flex justify-between items-center mb-5">
+            <img width="35" height="35" src="./img/coin_1.png" alt="">
+            <div class="flex items-center">
+              <div class="data_name">
+                <p>BTC</p>
+                <b>1.345</b>
+              </div>
+              <div class="data_incre">
+                <i class="fa-solid fa-sort-up"></i>
+                <p>+14%</p>
+              </div>
+            </div>
+          </div>
+          <div class="data_price flex justify-between items-center">
+            <p class="text-2xl font-bold">$42,530.2,310</p>
+            <img src="./img/line_1.svg" alt="">
+          </div>
+        </div>
+        <!-- item  -->
+        <div class="data_item rounded-r-xl border-l-slate-200 border-opacity-50 border-l">
+          <div class="data_logo_coin flex justify-between items-center mb-5">
+            <img width="35" height="35" src="./img/coin_1.png" alt="">
+            <div class="flex items-center">
+              <div class="data_name">
+                <p>BTC</p>
+                <b>1.345</b>
+              </div>
+              <div class="data_incre">
+                <i class="fa-solid fa-sort-up"></i>
+                <p>+14%</p>
+              </div>
+            </div>
+          </div>
+          <div class="data_price flex justify-between items-center">
+            <p class="text-2xl font-bold">$42,530.2,310</p>
+            <img src="./img/line_1.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- trusted  -->
+  <section class="trusted py-20">
+    <div class="container">
+      <div class="trusted_title text-center">
+        <h2 class="text-6xl mb-5">Trusted <span class="text-gardient ">Cryptocurrency</span> Platform</h2>
+        <p class="text-white text-opacity-50 text-xl">jano has a variety of features that make it the best place to
+          start
+          trading</p>
+      </div>
+      <div class="trusted_content">
+        <div class="mb-4">
+          <ul class="flex justify-center flex-wrap -mb-px text-sm font-medium text-center" id="default-styled-tab"
+            data-tabs-toggle="#default-styled-tab-content"
+            data-tabs-active-classes="text-purple-600 hover:text-purple-600 dark:text-purple-500 dark:hover:text-purple-500 border-purple-600 dark:border-purple-500"
+            data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300"
+            role="tablist">
+            <li class="me-2" role="presentation">
+              <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-styled-tab"
+                data-tabs-target="#profile" type="button" role="tab" aria-controls="profile"
+                aria-selected="false">Profile</button>
+            </li>
+            <li class="me-2" role="presentation">
+              <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-styled-tab"
+                data-tabs-target="#contact" type="button" role="tab" aria-controls="profile"
+                aria-selected="false">Contact</button>
+            </li>
+
+          </ul>
+        </div>
+        <div id="default-styled-tab-content">
+          <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel"
+            aria-labelledby="profile-tab">
+            <div class="grid grid-cols-4">
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="contact" role="tabpanel"
+            aria-labelledby="profile-tab">
+            <div class="grid grid-cols-4">
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="trusted_item">
+                <img src="./img/trusted_1.png" alt="">
+                <h3>Best Exchange Rate</h3>
+                <p>Convert data noise intelligent for quis lorem.</p>
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- how it work  -->
+  <section class="how_it_work">
+    <div class="container">
+      <div class="how_it_work_content flex items-center">
+        <div class="how_it_work_image flex-1">
+          <img src="./img/how_it_work_1.png" alt="">
+        </div>
+        <div class="how_it_work_text flex-1">
+          <p class="sub_title">How it Works</p>
+          <h2 class="mb-10">Buy <span class="text-gardient">Crypto</span> fast & <br> Instantly.</h2>
+          <p class="text-white text-opacity-50 text-2xl">Link your bank account and have your bitcoin in <br> minutes.
+            It’s
+            super easy
+            & fast.</p>
+          <ul class="space-y-3 my-10">
+            <li class="text-white text-opacity-50 text-lg"><i class="fa-solid fa-check"></i>Global Exchange Rates</li>
+            <li class="text-white text-opacity-50 text-lg"><i class="fa-solid fa-check"></i>Make payments with Bank
+              Transfer
+            </li>
+            <li class="text-white text-opacity-50 text-lg"><i class="fa-solid fa-check"></i>Instant Transaction</li>
+          </ul>
+          <button class="button-gardient">Start Trading</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- why choose us  -->
+  <section class="why_choose_us py-20 mb-20">
+    <div class="container">
+      <div class="why_choose_us_content flex items-center space-x-20">
+        <div class="why_choose_us_text flex-1">
+          <p class="sub_title">Why Choose us</p>
+          <h2 class="mb-10">Why <span class="text-gardient">Choose</span> us for your business.</h2>
+          <ul class="space-y-5">
+            <li class="why-choose-list group">
+              <i class="fa-solid fa-check"></i>
+              <span class="relative">World best technology data and trsuted by 10m+
+                users.</span>
+            </li>
+            <li class="why-choose-list">
+              <i class="fa-solid fa-check"></i>
+              <span class="relative">We provide best price more than other market</span>
+            </li>
+            <li class="why-choose-list">
+              <i class="fa-solid fa-check"></i>
+              <span class="relative">We’v expert to support you 24 hours in week.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="why_choose_us_image flex-1 relative flex items-start justify-center">
+          <img class="absolute -translate-y-1/2 animation-rotate" src="./img/why_choose_us_animation.svg" alt="">
+          <img class="relative mt-20" src="./img/why_choose_us.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- number  -->
+  <section class="number py-20">
+    <div class="container">
+      <div class="number_content flex items-center">
+        <div class="number_item flex-1">
+          <h3 class="text-gardient text-9xl mb-5">$<span class="counter">1</span>b+</h3>
+          <p>Cumulative trading volume
+            since inception</p>
+        </div>
+        <div class="number_item flex-1">
+          <h3 class="text-gardient text-9xl mb-5 counter">10</h3>
+          <p>Million Insurance Coverage.</p>
+        </div>
+        <div class="number_item flex-1">
+          <h3 class="text-gardient text-9xl mb-5"><span class="counter">120</span>+</h3>
+          <p>Country & Regions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- feed back  -->
+  <section class="feed_back">
+    <div class="feed_back_title text-center">
+      <p class="sub_title">Feedback</p>
+      <h2>Trsuted by <span class="text-gardient">Clients</span></h2>
+    </div>
+    <div class="feed_back_content">
+      <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-1.svg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-2.svg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-3.svg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-4.svg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/docs/images/carousel/carousel-5.svg"
+              class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1"
+            data-carousel-slide-to="0"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2"
+            data-carousel-slide-to="1"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3"
+            data-carousel-slide-to="2"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4"
+            data-carousel-slide-to="3"></button>
+          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5"
+            data-carousel-slide-to="4"></button>
+        </div>
+        <!-- Slider controls -->
+        <button type="button"
+          class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M5 1 1 5l4 4" />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button"
+          class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="m1 9 4-4-4-4" />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- any question  -->
+  <section class="any_question">
+    <div class="container">
+      <div class="any_question_content">
+        <div class="any_question_text">
+          <h2>Any Questions? Find here.</h2>
+          <p>Don’t find your answer here? just send us a message for any query.</p>
+          <button>Contact us</button>
+        </div>
+        <div class="any_question_ask"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- story -->
+  <section class="story"></section>
+
+  <!-- get ready  -->
+  <section class="get_ready">
+    <h2>Get Ready to Started. It’s Fast & Easy. App</h2>
+    <p>Download our mobile app and start trading & earn money</p>
+    <div class="get_ready_image">
+
+    </div>
+  </section>
+
+  <!-- footer  -->
+  <footer></footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+    integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/countup/jquery.countup.js"></script>
+  <script>
+    $('.counter').countUp();  
+  </script>
+</body>
+
+</html>

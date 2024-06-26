@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #151937;
+  color: white;
+}
+
+.text-gardient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(270.78deg, #ffa7a9 4.19%, #ff5ea3 96.11%);
+}
+
+.button-gardient {
+  background-image: linear-gradient(-90deg, #ff7df2 0%, #ff275b 100%);
+  @apply text-white py-3 px-8 rounded-3xl text-lg;
+}
+
+.video_intro {
+  background-color: rgb(255 255 255 / 10%);
+  @apply w-10 h-10 rounded-full flex items-center justify-center;
+}
+
+.data_item {
+  /* border: 1px solid rgb(255 255 255 / 12%); */
+  background-color: rgb(255 255 255 / 4%);
+  padding: 50px 48px 30px;
+  @apply flex-1;
+}
+
+h2 {
+  @apply text-6xl;
+}
+
+.sub_title {
+  @apply text-lg text-white text-opacity-50 mb-5;
+}
+
+.animation-rotate {
+  animation-name: rotate;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.why-choose-list {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.053) 0.94%,
+    rgba(255, 255, 255, 0.019) 98.3%
+  );
+  @apply py-6 px-10 text-white text-opacity-60 rounded-lg flex items-center before:content-[''] hover:before:opacity-90 relative hover:text-opacity-100 text-xl cursor-pointer;
+}
+
+.why-choose-list::before {
+  @apply bg-pink-gradient opacity-0 duration-500 absolute top-0 left-0 w-full h-full rounded-lg z-0;
+}
+
+.why-choose-list i {
+  @apply text-lg w-10 h-10 rounded-full flex items-center justify-center text-red-500 mr-5 bg-white bg-opacity-10  relative;
+}
+
+.why-choose-list:hover i {
+  @apply text-white bg-opacity-35;
+}
+
+.number_item {
+  @apply text-center;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
