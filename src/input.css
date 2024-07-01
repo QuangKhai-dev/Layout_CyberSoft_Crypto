@@ -48,6 +48,22 @@ h2 {
   animation-iteration-count: infinite;
 }
 
+.trusted_item {
+  @apply bg-white bg-opacity-5 flex flex-col items-center justify-center p-10 rounded-xl;
+}
+
+.trusted_item h3 {
+  @apply text-2xl font-bold mt-5 mb-3;
+}
+
+.trusted_item p {
+  @apply text-base text-gray-400;
+}
+
+.trusted_item i {
+  @apply text-3xl text-gray-400 mt-5 inline-block;
+}
+
 .why-choose-list {
   background: linear-gradient(
     90deg,
@@ -71,6 +87,43 @@ h2 {
 
 .number_item {
   @apply text-center;
+}
+
+.feed_back .slick-dots li button:before {
+  color: white;
+  opacity: 1;
+  font-size: 16px;
+}
+
+.feed_back .slick-dots {
+  bottom: -40px;
+}
+
+.feed_back .slick-dots li.slick-active button:before {
+  color: #ff5ea3;
+}
+
+.any_question .any_question_ask button {
+  background-color: unset;
+  border: unset;
+}
+
+.input_custom {
+  background-color: unset;
+  border: none;
+  outline: none;
+}
+
+.input_custom:focus {
+  box-shadow: none;
+}
+
+.footer_title {
+  @apply text-white mb-5 text-2xl font-bold;
+}
+
+.footer_list_nav a {
+  @apply text-gray-400 text-lg hover:text-white hover:underline my-2 inline-block;
 }
 
 @keyframes rotate {
