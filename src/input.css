@@ -49,7 +49,7 @@ h2 {
 }
 
 .trusted_item {
-  @apply bg-white bg-opacity-5 flex flex-col items-center justify-center p-10 rounded-xl;
+  @apply bg-white bg-opacity-5 flex flex-col items-center justify-center p-7 rounded-xl;
 }
 
 .trusted_item h3 {
